@@ -16,6 +16,15 @@
             padding: 10px;
             text-align: center;
             border-bottom: 6px solid rgb(0, 0, 0);
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 90px;
+            font-family: 'Georgia', serif;
+            flex: 1;
         }
         .container {
             width: 80%;
@@ -56,7 +65,7 @@
             margin-bottom: 5px;
         }
         footer {
-            background-color: #f8f8f8;
+            background-color: #939393;
             padding: 10px;
             text-align: center;
             border-top: 2px solid #ddd;
@@ -65,16 +74,19 @@
 </head>
 <body>
     <header>
+        <a href="../../index.html">
+            <img src="/imgs/luluSports.png" alt="Logo da Lulu Sports">
+        </a>
         <h1>Futebol - Lulu Sports</h1>
     </header>
     <div class="container">
         <section class="sport-info">
             <h2>Sobre o Futebol</h2>
-            <img src="futebol-historia.jpg" alt="Imagem de Futebol">
+            <img src="../../imgs/football-257489_640.png" alt="Imagem de Futebol">
             <p>O futebol é um esporte coletivo praticado entre duas equipes de onze jogadores cada. É o esporte mais popular do mundo, com uma vasta história e uma rica tradição de campeonatos internacionais como a Copa do Mundo da FIFA e a UEFA Champions League.</p>
             <p>Para mais informações sobre o futebol, visite os seguintes links:</p>
             <ul>
-                <li><a href="https://pt.wikipedia.org/wiki/Futebol" target="_blank">Wikipedia - Futebol</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/Futebol"target="_blank">Wikipedia - Futebol</a></li>
                 <li><a href="https://www.fifa.com/" target="_blank">FIFA</a></li>
                 <li><a href="https://www.uefa.com/" target="_blank">UEFA</a></li>
             </ul>
@@ -82,27 +94,35 @@
 
         <section class="products">
             <h2>Produtos Disponíveis</h2>
-        <div class="produto">
-            <img src="../imgs/chuteira.jpg" alt="Chuteira Nike Mercurial">
-            <h3>Chuteira Nike Mercurial</h3>
-            <p>Preço: R$ 399,99</p>
-            <p>Descrição: Chuteira leve e resistente, ideal para jogos em campo.</p>
-            <p>Tamanhos: 38, 39, 40, 41, 42</p>
-        </div>
-        <div class="produto">
-            <img src="../imgs/bola.jpg" alt="Bola Adidas">
-            <h3>Bola Adidas</h3>
-            <p>Preço: R$ 149,99</p>
-            <p>Descrição: Bola oficial para partidas de futebol.</p>
-            <p>Tamanhos: Padrão FIFA</p>
-        </div>
-        <div class="produto">
-            <img src="../imgs/camiseta.jpg" alt="Camiseta Seleção Brasileira">
-            <h3>Camiseta Seleção Brasileira</h3>
-            <p>Preço: R$ 249,99</p>
-            <p>Descrição: Camiseta oficial da Seleção Brasileira, 2024.</p>
-            <p>Tamanhos: P, M, G, GG</p>
-        </div>
+            <div class="product">
+                <img src="../../imgs/ChuteiraNike.avif"  width='200' alt="Chuteira Nike Mercurial">
+                <div class="product-details">
+                    <h3>Chuteira Nike Mercurial</h3>
+                    <p>Preço: R$ 399,99</p>
+                    <p>Descrição: Chuteira leve e resistente, ideal para jogos em campo.</p>
+                    <p>Tamanhos: 38, 39, 40, 41, 42</p>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="../../imgs/BolaFut.avif" alt="Bola Adidas">
+                <div class="product-details">
+                    <h3>Bola Adidas</h3>
+                    <p>Preço: R$ 149,99</p>
+                    <p>Descrição: Bola oficial para partidas de futebol.</p>
+                    <p>Tamanhos: Padrão FIFA</p>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="../../imgs/camisaFut.jpg" alt="Camiseta Seleção Brasileira">
+                <div class="product-details">
+                    <h3>Camiseta Seleção Brasileira</h3>
+                    <p>Preço: R$ 249,99</p>
+                    <p>Descrição: Camiseta oficial da Seleção Brasileira, 2024.</p>
+                    <p>Tamanhos: P, M, G, GG</p>
+                </div>
+            </div>
         </section>
     </div>
     <footer>
